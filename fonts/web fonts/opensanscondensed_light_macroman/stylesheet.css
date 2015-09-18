@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'open_sanscondensed_light';
+    src: url('fonts/web fonts/OpenSans-CondLight-webfont.eot');
+    src: url('fonts/web fonts/OpenSans-CondLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/web fonts/OpenSans-CondLight-webfont.woff') format('woff'),
+         url('fonts/web fonts/OpenSans-CondLight-webfont.ttf') format('truetype'),
+         url('fonts/web fonts/OpenSans-CondLight-webfont.svg#open_sanscondensed_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body
+{
+	font-family: "open_sanscondensed_light";
+	font-size: 16px;
+}

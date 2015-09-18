@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'open_sanscondensed_light';
+    src: url('../../fonts/web fonts/opensanscondensed_light_macroman/OpenSans-CondLight-webfont.eot');
+    src: url('../../fonts/web fonts/opensanscondensed_light_macroman/OpenSans-CondLight-webfont.eot');
+    src: url('../../fonts/web fonts/opensanscondensed_light_macroman/OpenSans-CondLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/web fonts/opensanscondensed_light_macroman/OpenSans-CondLight-webfont.woff') format('woff'),
+         url('../../fonts/web fonts/opensanscondensed_light_macroman/OpenSans-CondLight-webfont.ttf') format('truetype'),
+         url('../../fonts/web fonts/opensanscondensed_light_macroman/OpenSans-CondLight-webfont.svg#open_sanscondensed_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*
+RESETEO UNIVERSAL
+
+
+file-name:   styleSheetCPiura.css;
+*/
+
+
+*
+{
+	border : 0;
+	margin: 0;
+	padding: 0;
+}
+
+
+article, figcaption, figure, footer, header, hgroup, nav , section
+{
+
+	border: 1px solid blue;
+
+	display: block;
+}
+
+
+body
+{
+	background: #CDD0CF;
+    font-family: 'open_sanscondensed_light', sans-serif;
+    /*
+    font-family: arial; */
+    font-size: 1em	
+}

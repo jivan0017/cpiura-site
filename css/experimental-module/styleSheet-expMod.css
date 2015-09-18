@@ -1,0 +1,86 @@
+/*
+MODULO EXPERIMENTAL
+
+*/
+
+body
+{
+	font-family: Raleway;
+	background: #D9D9DA;
+}
+
+header 
+{
+	width: 91%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+nav
+{
+	background: #8A0829;
+	margin-top: 20px;
+	position: relative;
+}
+
+nav ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+nav > ul > li
+{
+	float: left;
+}
+
+nav ul li a
+{
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+
+nav ul li a:hover
+{
+	background: #c94b4b;
+}
+
+nav > ul > li:hover div
+{
+	display: table;
+}
+
+
+nav ul li div
+{
+	width: 1000px;
+	position: absolute;
+	left: 0;
+	background: #ccc;
+	box-sizing:border-box;
+	display: none;
+}
+
+
+
+nav ul li div ul
+{
+	width: 20%;
+	display: table-cell;
+	border-right: 1px solid rgba(255,255,255,.5);
+}
+
+nav ul li div ul:last-child
+{
+	border: none;
+}
+
+nav ul li div ul li.CLASS_TITLE
+{
+	background: #000;
+	color: #fff;
+}
